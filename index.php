@@ -3,7 +3,7 @@
 
 $database = require 'bootstrap.php';
 
-$tasks = $database->selectALl('todos');
+$names = $database->selectALl('personnel');
 
 require 'index.view.php';
 
